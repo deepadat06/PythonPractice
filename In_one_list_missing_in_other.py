@@ -1,0 +1,17 @@
+# Code starts here
+
+# initialize both lists
+
+alist = [i for i in range(1,51)] 
+
+blist = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47]
+
+# final list
+
+final = [i for i in alist if not i in blist]
+
+# display final list
+
+print(final)
+
+# Code ends here
